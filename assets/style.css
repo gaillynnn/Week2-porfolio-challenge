@@ -1,0 +1,98 @@
+root{
+   margin:0;
+   padding:0px;
+}
+
+header{
+    background-image: linear-gradient(170deg,rgb(200, 125, 137),rgb(55, 25, 55),rgb(45, 137, 140),rgb(130, 175, 152));
+    position: fixed;
+    top:0%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 10%;
+}
+
+header h1{
+    font-style: italic;
+    font-size: 2rem;
+    width:30%;
+}
+
+header nav{
+    width:65%;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+header nav ul li a {
+    color: black;
+    font-size: 1.5rem;
+}
+.main{
+    padding-top: 4%;
+    margin-top: 3%;
+}
+
+.row{
+    display:flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.col1{
+    width: 25%;
+}
+
+.section-content{
+    width:70%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.section-content figure{
+    display:flex;
+}
+.section-content figure aside{
+    width:25%;
+}
+.section-content figure summary{
+    width: 70%;
+}
+
+.headshot{
+    width:100%;
+    border-radius: 10px;
+}
+
+p{
+    letter-spacing: 3px;
+    font-size: 1.25rem;
+    padding:1%;
+}
+
+.project{
+    width:43%;
+    position:relative;
+    border: 5px solid rgb(216, 174, 198);
+    border-radius: 10px;
+}
+
+#work{
+    flex-wrap: wrap;
+}
+
+.screenshot{
+    width: 100%;
+    padding:2%;
+}
+
+.project summary{
+    position: absolute;
+    bottom:0;
+    background-color: rgba(86, 39, 79, 0.921);
+}
